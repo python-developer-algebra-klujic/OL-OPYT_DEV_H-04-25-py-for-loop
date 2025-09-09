@@ -54,9 +54,40 @@ print('Ispis trokuta varijabilne visine pomocu for petlje')
 height = int(input('Unesite visinu trokuta: '))
 
 print('*')
-for number in range(height):
-    print('*' + ' ' * number + '*')
+for number in range(height - 2):
+    # print('*' + ' ' * number + '*')
+    print(f'*{" " * number}*')
 
-print('*' + '*' * height + '*')
+# print('*' + '*' * (height - 2) + '*')
+print(f'*{"*" * (height - 2)}*')
+print()
+print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print('Ispis trokuta varijabilne visine pomocu for petlje')
+print('uz izbor znaka za iscrtavanje linija strnica trokuta')
+
+height = int(input('Unesite visinu trokuta: '))
+
+print('*')
+for number in range(height - 2):
+    # print('*' + ' ' * number + '*')
+    print(f'*{" " * number}*')
+
+# print('*' + '*' * (height - 2) + '*')
+print(f'*{"*" * (height - 2)}*')
 print()
 print()
