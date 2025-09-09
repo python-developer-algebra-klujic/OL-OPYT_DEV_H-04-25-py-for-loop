@@ -59,7 +59,7 @@ for number in range(height - 2):
     print(f'*{" " * number}*')
 
 # print('*' + '*' * (height - 2) + '*')
-print(f'{"*" * (height)}')
+print(f'{"*" * height}')
 print()
 print()
 
