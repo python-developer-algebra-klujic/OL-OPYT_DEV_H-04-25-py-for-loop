@@ -9,7 +9,7 @@ Napisite program koji ispisuje trokut tako da su linije stranica prikazane zvjez
  *    *
 *******
 '''
-# Denis Šragalj: 
+# Author: Denis Šragalj
 
 # pitajmo korisnika koji znak želi koristiti
 hight = int(input("Unesite visinu trokuta: " ))
