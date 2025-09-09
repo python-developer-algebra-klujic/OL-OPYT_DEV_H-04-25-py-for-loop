@@ -84,10 +84,8 @@ height = int(input('Unesite visinu trokuta: '))
 
 print('*')
 for number in range(height - 2):
-    # print('*' + ' ' * number + '*')
     print(f'*{" " * number}*')
 
-# print('*' + '*' * (height - 2) + '*')
 print(f'*{"*" * (height - 2)}*')
 print()
 print()
