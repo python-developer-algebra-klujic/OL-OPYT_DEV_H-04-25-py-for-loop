@@ -81,11 +81,12 @@ print('Ispis trokuta varijabilne visine pomocu for petlje')
 print('uz izbor znaka za iscrtavanje linija strnica trokuta')
 
 height = int(input('Unesite visinu trokuta: '))
+symbol = input('Unesite znak za iscrtavanje stranica trokuta: ')
 
-print('*')
+print(symbol)
 for number in range(height - 2):
-    print(f'*{" " * number}*')
+    print(f'{symbol}{" " * number}{symbol}')
 
-print(f'*{"*" * (height - 2)}*')
+print(f'{symbol}{symbol * (height - 2)}{symbol}')
 print()
 print()
