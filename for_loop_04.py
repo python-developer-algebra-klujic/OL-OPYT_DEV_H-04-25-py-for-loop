@@ -22,5 +22,4 @@ for number in range(hight - 2):
     space_before = hight - 2 - number
     print(f"{space_before * ' '}{symbol}{' ' * number}{symbol}")
 
-
 print(f'{symbol * hight}') 
